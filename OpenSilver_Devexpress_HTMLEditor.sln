@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenSilver_Devexpress_HTMLEditor", "OpenSilver_Devexpress_HTMLEditor\OpenSilver_Devexpress_HTMLEditor.csproj", "{6D03FDB7-474E-4096-B216-E10F2838DF08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenSilver_Devexpress_HTMLEditor.Browser", "OpenSilver_Devexpress_HTMLEditor.Browser\OpenSilver_Devexpress_HTMLEditor.Browser.csproj", "{27CEB489-64AD-4E5C-A903-B829C02DEF1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenSilver_Devexpress_HTMLEditor.Simulator", "OpenSilver_Devexpress_HTMLEditor.Simulator\OpenSilver_Devexpress_HTMLEditor.Simulator.csproj", "{ADEE4150-1380-43E9-BAC8-46FAC34F3A48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevExpress.OpenSilver", "..\DevExpress.OpenSilver\DevExpress.OpenSilver.csproj", "{30EED3E0-F0A2-4828-B0CF-91AF6C794348}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3E8A4398-BD0B-4355-9109-0F04D457A514}"
+	ProjectSection(SolutionItems) = preProject
+		Nuget.Config = Nuget.Config
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6D03FDB7-474E-4096-B216-E10F2838DF08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D03FDB7-474E-4096-B216-E10F2838DF08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D03FDB7-474E-4096-B216-E10F2838DF08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D03FDB7-474E-4096-B216-E10F2838DF08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27CEB489-64AD-4E5C-A903-B829C02DEF1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27CEB489-64AD-4E5C-A903-B829C02DEF1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27CEB489-64AD-4E5C-A903-B829C02DEF1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27CEB489-64AD-4E5C-A903-B829C02DEF1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADEE4150-1380-43E9-BAC8-46FAC34F3A48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADEE4150-1380-43E9-BAC8-46FAC34F3A48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADEE4150-1380-43E9-BAC8-46FAC34F3A48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADEE4150-1380-43E9-BAC8-46FAC34F3A48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30EED3E0-F0A2-4828-B0CF-91AF6C794348}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30EED3E0-F0A2-4828-B0CF-91AF6C794348}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30EED3E0-F0A2-4828-B0CF-91AF6C794348}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30EED3E0-F0A2-4828-B0CF-91AF6C794348}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CA69167B-0A8F-4A6C-B055-4F1BFD14F725}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,11 @@
+﻿<Application
+    x:Class="OpenSilver_Devexpress_HTMLEditor.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:OpenSilver_Devexpress_HTMLEditor">
+    <Application.Resources>
+        <ResourceDictionary>
+            
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
