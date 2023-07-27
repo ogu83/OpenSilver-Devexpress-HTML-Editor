@@ -17,7 +17,13 @@ namespace OpenSilver_Devexpress_HTMLEditor
 
         private void Editor_TabItem_Loaded(object sender, RoutedEventArgs e)
         {
-            htmlEditor.SetHeight(590);
+            htmlEditor.SetHeight(500);
+            tabControl.SelectionChanged += TabControl_SelectionChanged;
+        }
+
+        private void TabControl_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            htmlEditor.SetHeight(500);
         }
     }
 }

@@ -16,8 +16,8 @@
         </Grid.RowDefinitions>
         <TextBlock Grid.Row="0" Margin="5,0" FontSize="18">Open Silver DevExpress HTML Editor</TextBlock>
         <TextBlock Grid.Row="1" Margin="5,0" FontSize="16" FontStyle="Italic">Js Interop POC</TextBlock>
-        <TabControl Grid.Row="2" Margin="5" FontSize="14">
-            <TabItem Header="Editor" Loaded="Editor_TabItem_Loaded">
+        <TabControl x:Name="tabControl" Grid.Row="2" Margin="5" FontSize="14">
+            <TabItem Header="Editor" Loaded="Editor_TabItem_Loaded" VerticalContentAlignment="Top" >
                 <devex:HtmlEdit x:Name="htmlEditor" />
             </TabItem>
             <TabItem Header="Preview">
