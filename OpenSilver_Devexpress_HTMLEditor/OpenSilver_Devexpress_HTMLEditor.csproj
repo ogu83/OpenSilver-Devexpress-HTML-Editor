@@ -10,7 +10,7 @@
     <PackageReference Include="OpenSilver" Version="1.2.0-preview-cl-2023-07-17-114337-a4d4d81a" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\DevExpress.OpenSilver\DevExpress.OpenSilver.csproj" />
+    <ProjectReference Include="../DevExpress.OpenSilver\DevExpress.OpenSilver.csproj" />
   </ItemGroup>
 
   <ItemGroup>
