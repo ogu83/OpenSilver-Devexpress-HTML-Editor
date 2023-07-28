@@ -1,9 +1,4 @@
-﻿using CSHTML5.Native.Html.Controls;
-using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Windows;
+﻿using System.Windows;
 using System.Windows.Controls;
 
 namespace OpenSilver_Devexpress_HTMLEditor
@@ -12,7 +7,7 @@ namespace OpenSilver_Devexpress_HTMLEditor
     {
         public MainPage()
         {
-            this.InitializeComponent();
+            InitializeComponent();
         }
 
         private void Editor_TabItem_Loaded(object sender, RoutedEventArgs e)
@@ -24,6 +19,11 @@ namespace OpenSilver_Devexpress_HTMLEditor
         private void TabControl_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             htmlEditor.SetHeight(500);
+        }
+
+        private void btnSave_Click(object sender, RoutedEventArgs e)
+        {
+            htmlPresenter.Html = htmlEditor.Html;
         }
     }
 }
