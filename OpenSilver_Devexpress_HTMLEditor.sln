@@ -3,17 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenSilver_Devexpress_HTMLEditor", "OpenSilver_Devexpress_HTMLEditor\OpenSilver_Devexpress_HTMLEditor.csproj", "{6D03FDB7-474E-4096-B216-E10F2838DF08}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenSilver_Devexpress_HTMLEditor", "OpenSilver_Devexpress_HTMLEditor\OpenSilver_Devexpress_HTMLEditor.csproj", "{6D03FDB7-474E-4096-B216-E10F2838DF08}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenSilver_Devexpress_HTMLEditor.Browser", "OpenSilver_Devexpress_HTMLEditor.Browser\OpenSilver_Devexpress_HTMLEditor.Browser.csproj", "{27CEB489-64AD-4E5C-A903-B829C02DEF1F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenSilver_Devexpress_HTMLEditor.Browser", "OpenSilver_Devexpress_HTMLEditor.Browser\OpenSilver_Devexpress_HTMLEditor.Browser.csproj", "{27CEB489-64AD-4E5C-A903-B829C02DEF1F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenSilver_Devexpress_HTMLEditor.Simulator", "OpenSilver_Devexpress_HTMLEditor.Simulator\OpenSilver_Devexpress_HTMLEditor.Simulator.csproj", "{ADEE4150-1380-43E9-BAC8-46FAC34F3A48}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenSilver_Devexpress_HTMLEditor.Simulator", "OpenSilver_Devexpress_HTMLEditor.Simulator\OpenSilver_Devexpress_HTMLEditor.Simulator.csproj", "{ADEE4150-1380-43E9-BAC8-46FAC34F3A48}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevExpress.OpenSilver", "DevExpress.OpenSilver\DevExpress.OpenSilver.csproj", "{30EED3E0-F0A2-4828-B0CF-91AF6C794348}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevExpress.OpenSilver", "DevExpress.OpenSilver\DevExpress.OpenSilver.csproj", "{30EED3E0-F0A2-4828-B0CF-91AF6C794348}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3E8A4398-BD0B-4355-9109-0F04D457A514}"
 	ProjectSection(SolutionItems) = preProject
 		Nuget.Config = Nuget.Config
+		README.md = README.md
+		Screenshot 2023-07-28 035827.png = Screenshot 2023-07-28 035827.png
 	EndProjectSection
 EndProject
 Global
