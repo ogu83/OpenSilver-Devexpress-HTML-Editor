@@ -147,4 +147,12 @@
     </Page>
   </ItemGroup>
 
+  <ItemGroup>
+    <UpToDateCheckInput Remove="bin\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="bin\Debug\" />
+  </ItemGroup>
+
 </Project>
